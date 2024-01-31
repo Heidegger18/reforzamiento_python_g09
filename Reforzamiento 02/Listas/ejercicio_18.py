@@ -8,9 +8,16 @@ impares dentro del rango indicado y que no sea el último impar).
     - Eliminar este valor string de la cadena usando del.
 """
 
-quince_primeros_impares = [1, 3, 5, 7, 9,
-                           11, 13, 15, 17, 19,
-                           23, 25, 27, 29, 31]
+quince_primeros_impares = []
+
+numero = 1
+i = 1
+while numero <=15:
+    quince_primeros_impares.append(i)
+    i = i + 2
+    numero = numero + 1
+
+#print(quince_primeros_impares)
 
 quince_primeros_impares.append(3.0)
 quince_primeros_impares.append(23.0)
